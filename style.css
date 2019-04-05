@@ -10,7 +10,6 @@ body {
 header {
     overflow: hidden;
     position: relative;
-
 }
 
  ul {
@@ -48,14 +47,20 @@ body header p:nth-child(3) {
     text-transform: uppercase;
 }
 
-
-
-
 /* Main */
 
 #recipe{
     background-image: url("/img/list-bg.png");
 }
+
+h1 {
+    color: #525252;
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
 /* Footer */
 .gradientLine {
     border-top: .5em solid #fff;
