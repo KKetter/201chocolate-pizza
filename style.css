@@ -1,24 +1,72 @@
-/* Nav */
-
-#recipe{
-   
-    background-image: url("/img/list-bg.png");
+/* Global */
+body {
+    width: 960px;
+    text-align: center;
+    padding: 5px 50px;
 }
+
+/* Header */
+
+header {
+    overflow: hidden;
+    position: relative;
+
+}
+
+ ul {
+    float: right;
+    top:-6px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+#rss{
+    padding-left: 12px;
+}
+
+body header img {
+    float: left;
+    margin-right: .5px;
+}
+
+body header p {
+    font-family: 'Oswald';
+}
+
+body header p:nth-child(2) {
+    float: left;
+
+}
+/* issue: they(above and below elements) dont not stack when both floated */
+body header p:nth-child(3) {
+    float: left;
+    opacity: .7;
+    text-transform: uppercase;
+}
+
+
+
 
 /* Main */
 
+#recipe{
+    background-image: url("/img/list-bg.png");
+}
 /* Footer */
 .gradientLine {
     border-top: .5em solid #fff;
     border-image: repeating-linear-gradient( 45deg, transparent 5px, #eee 10px, #000 6px) 11;
-    padding-top:1.5em;
-    margin-top:2.5em;
+    padding-top: 15px;
+    margin-top:20px;
 }
 
 .footerLine{
     border-top: 1px solid #ccc;
     position: absolute;
     width: 100%;
-
     z-index: -1;
 }
