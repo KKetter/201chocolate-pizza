@@ -1,1 +1,24 @@
+/* Nav */
 
+#recipe{
+   
+    background-image: url("/img/list-bg.png");
+}
+
+/* Main */
+
+/* Footer */
+.gradientLine {
+    border-top: .5em solid #fff;
+    border-image: repeating-linear-gradient( 45deg, transparent 5px, #eee 10px, #000 6px) 11;
+    padding-top:1.5em;
+    margin-top:2.5em;
+}
+
+.footerLine{
+    border-top: 1px solid #ccc;
+    position: absolute;
+    width: 100%;
+
+    z-index: -1;
+}
